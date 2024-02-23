@@ -5,12 +5,13 @@ import { useEffect, useState } from "react";
 const options: Intl.DateTimeFormatOptions = {
   hour: "2-digit",
   minute: "2-digit",
+  // second: "2-digit",
   timeZone: "Europe/Moscow",
 };
 
 export default function StatusBar() {
-  const [time, setTime] = useState(
-    `${new Date().toLocaleTimeString("en-GB", options)}`
+  const [time, setTime] = useState(() =>
+    new Date().toLocaleTimeString("en-GB", options)
   );
 
   useEffect(() => {
