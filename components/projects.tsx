@@ -27,7 +27,7 @@ export default function Projects() {
               className="flex w-full flex-col rounded-xl border"
             >
               <a
-                className="flex cursor-pointer items-center justify-between border-b rounded-t-[10px] px-4 py-1 transition-all ease-in-out hover:bg-indigo-100/20   hover:text-primary"
+                className="flex cursor-pointer items-center justify-between border-b rounded-t-[10px] px-4 py-1 transition-all ease-in-out hover:bg-indigo-100/20 hover:text-primary"
                 href={project.source}
                 rel="noopener noreferrer"
                 target="_blank"
