@@ -18,9 +18,9 @@ export default function Projects() {
 
   return (
     <div className="col-span-2 flex gap-2">
-      <div className="w-full rounded-2xl border px-5 py-3">
+      <div className="w-full rounded-2xl border px-5 pt-3 pb-4">
         <p className="text-lg">projects</p>
-        <div className="flex flex-col gap-2 md-custom:flex-row md-custom:gap-3 mt-4">
+        <div className="flex flex-col gap-3 md-custom:flex-row md-custom:gap-3 mt-4">
           {projects.map((project) => (
             <div
               key={project.title}
@@ -55,17 +55,15 @@ export default function Projects() {
                 <p className="mt-2 text-[14px] text-indigo-950/40">
                   {project.description}
                 </p>
-                <div className="py-2 mt-2">
-                  <div className="flex flex-wrap gap-1">
-                    {project.stack.map((item) => (
-                      <span
-                        key={item}
-                        className="rounded-md border px-2 text-[10px]"
-                      >
-                        {item}
-                      </span>
-                    ))}
-                  </div>
+                <div className="flex flex-wrap gap-1 py-2 mt-2">
+                  {project.stack.map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-md border px-2 text-[10px]"
+                    >
+                      {item}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
