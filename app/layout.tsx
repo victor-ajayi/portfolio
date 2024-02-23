@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="mx-auto max-w-[800px] py-20 px-10">{children}</main>
+        <main className="grid mx-auto max-w-[800px] px-10">{children}</main>
       </body>
     </html>
   );
