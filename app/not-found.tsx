@@ -15,20 +15,18 @@ export default function NotFound() {
         </div>
         <div className="grid py-10">
           <h1 className="text-2xl font-bold mb-4">404 — Not Found</h1>
-          <h2 className="text-base">
-            Sorry, I don&apos;t have what you&apos;re looking for {":("}
+          <h2 className="text-base px-3">
+            Sorry, I don&apos;t have what you&apos;re looking for. <br /> But I
+            do have this photo of Gojo Satoru and Geto Suguru {":)"}
           </h2>
-          <div className="mt-2">
-            But I do have this photo of Gojo Satoru and Geto Suguru {":)"}
-          </div>
-          <div className="w-[800px] mx-auto my-4">
+          <div className="w-5/6 mx-auto my-4">
             <AspectRatio ratio={16 / 9}>
               <Image
                 src="/gojo-geto.jpeg"
                 width={1400}
                 height={788}
                 alt="Image"
-                className="rounded-2xl object-cover"
+                className="rounded-2xl object-cover max-w-full"
               />
             </AspectRatio>
           </div>
