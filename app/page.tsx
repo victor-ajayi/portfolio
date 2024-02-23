@@ -7,7 +7,7 @@ import StatusBar from "@/components/status-bar";
 
 export default function Page() {
   return (
-    <div className="mt-3">
+    <div className="mt-3 pb-10">
       <StatusBar />
       <div className="grid grid-cols-2 gap-4 mt-4">
         <div className="col-span-2 flex flex-col justify-center gap-3 md:flex-row">
