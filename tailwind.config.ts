@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -10,10 +12,10 @@ const config = {
   ],
   prefix: "",
   theme: {
-    extend: {
-      screens: {
-        "md-custom": "640px",
-      },
+    screens: {
+      xs: "320px",
+      "md-custom": "640px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [require("tailwindcss-animate")],
