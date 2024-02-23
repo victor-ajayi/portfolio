@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from "react";
 
+const options: Intl.DateTimeFormatOptions = {
+  hour: "2-digit",
+  minute: "2-digit",
+  timeZone: "Europe/Moscow",
+};
+
 export default function StatusBar() {
-  const options: Intl.DateTimeFormatOptions = {
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZone: "Europe/Moscow",
-  };
   const [time, setTime] = useState(
     `${new Date().toLocaleTimeString("en-GB", options)}`
   );
@@ -22,11 +23,11 @@ export default function StatusBar() {
 
   return (
     <div className="flex gap-2 py-3 border-b w-full">
-      <div className="flex items-center px-2 text-sm text-indigo-950/60">
-        Moscow
+      <div className="flex items-center px-2 text-md text-secondary">
+        {"Moscow"}
       </div>
       <div
-        className="flex items-center gap-1 px-2 text-sm text-indigo-950/60 ml-auto"
+        className="flex items-center gap-1 px-2 text-sm text-secondary ml-auto"
         suppressHydrationWarning
       >
         <svg

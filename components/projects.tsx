@@ -27,7 +27,7 @@ export default function Projects() {
               className="flex w-full flex-col rounded-xl border"
             >
               <a
-                className="flex cursor-pointer items-center justify-between border-b rounded-t-[10px] px-4 py-1 transition-all ease-in-out hover:bg-indigo-100/20 hover:border-indigo-700/40 hover:text-indigo-700"
+                className="flex cursor-pointer items-center justify-between border-b rounded-t-[10px] px-4 py-1 transition-all ease-in-out hover:bg-indigo-100/20   hover:text-primary"
                 href={project.source}
                 rel="noopener noreferrer"
                 target="_blank"
@@ -47,12 +47,10 @@ export default function Projects() {
                     />
                   </svg>
                 </div>
-                <p className="text-xs text-indigo-950/40 group-hover:text-indigo-800">
-                  {project.year}
-                </p>
+                <p className="text-xs text-secondary">{project.year}</p>
               </a>
               <div className="flex h-full flex-col justify-between px-4">
-                <p className="mt-2 text-[14px] text-indigo-950/40">
+                <p className="mt-2 text-[14px] text-secondary">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-1 py-2 mt-2">

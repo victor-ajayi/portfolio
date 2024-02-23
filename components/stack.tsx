@@ -9,7 +9,7 @@ import { SiFastapi, SiPydantic, SiTailwindcss } from "react-icons/si";
 
 export default function Stack() {
   return (
-    <div className="grid grid-cols-4 gap-y-4 gap-x-0 py-3 px-auto items-center text-indigo-950/40 md:grid-cols-3 md:py-2 md:gap-y-2 md:gap-x-1 rounded-2xl border transition-all duration-300 ease-in-out hover:border-indigo-700/40 md:w-[300px] h-full">
+    <div className="grid grid-cols-4 gap-y-4 gap-x-0 py-3 px-auto items-center text-secondary md:grid-cols-3 md:py-[10px] md:gap-y-2 md:gap-x-1 rounded-2xl border transition-all duration-300 ease-in-out   md:w-[300px] h-full">
       <div title="Python" className="">
         <BiLogoPython title="FastAPI" size={30} className="mx-auto" />
       </div>
