@@ -15,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <main className="grid mx-auto max-w-[800px] px-10">{children}</main>
+        <main className="grid mx-auto max-w-[800px] px-3 md-custom:px-10">
+          {children}
+        </main>
       </body>
     </html>
   );
