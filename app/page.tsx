@@ -17,10 +17,9 @@ export default function Page() {
         </div>
         <Projects />
         <Moodboard />
-      </div>
-      <Footer>
         <Contact />
-      </Footer>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }

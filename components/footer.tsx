@@ -4,12 +4,9 @@ interface Props {
 
 export default function Footer({ children }: Props) {
   return (
-    <div className="text-sm text-secondary w-full my-10">
-      <p className="text-center">
-        Thanks for stopping by. You can find me on my socials
-      </p>
+    <div className="text-sm text-secondary w-full mt-5 mb-10">
       <div className="flex flex-col justify-center w-full mt-4">{children}</div>
-      <div className="w-full mt-20">
+      <div className="w-full mt-10">
         <hr />
         <div className="flex items-center">
           <p className="mt-3 inline-block mr-auto">

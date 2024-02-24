@@ -1,7 +1,10 @@
 export default function Contact() {
   return (
-    <div className="self-center">
-      <div className="flex gap-2 w-fit">
+    <div className="flex flex-col justify-center col-span-2 w-full mt-4">
+      <p className="self-center text-center text-secondary xs:w-3/4">
+        Thanks for stopping by. You can find me on my socials
+      </p>
+      <div className="flex gap-2 self-center mt-3">
         <a
           href={"https://github.com/victor-ajayi"}
           className="inline-block border rounded-[10px] px-2 py-2 cursor-pointer hover:border-primary transition-all duration-300 ease-in-out"
