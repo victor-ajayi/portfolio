@@ -10,8 +10,8 @@ export default function NotFound() {
   return (
     <div className="mt-3 mx-auto max-w-[800px] px-3 md-custom:px-10">
       <StatusBar />
-      <div className="mt-3 max-w-[1000px] text-center">
-        <h1 className="text-2xl font-bold mb-4">404 — Not Found</h1>
+      <div className="mt-8 max-w-[1000px] text-center">
+        <h1 className="text-4xl font-bold mb-4">404 — Not Found</h1>
         <h2 className="text-base px-3">
           Sorry, I don&apos;t have what you&apos;re looking for. <br /> But I do
           have this photo of Gojo Satoru and Geto Suguru {":)"}
