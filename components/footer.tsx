@@ -1,4 +1,8 @@
-export default function Footer({ children }: { children: React.ReactNode }) {
+interface Props {
+  children?: React.ReactNode;
+}
+
+export default function Footer({ children }: Props) {
   return (
     <div className="text-sm text-secondary w-full my-10">
       <p className="text-center">
