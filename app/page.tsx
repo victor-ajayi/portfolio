@@ -1,5 +1,5 @@
 import Bio from "@/components/bio";
-import Contact from "@/components/contact";
+import Contacts from "@/components/contacts";
 import Footer from "@/components/footer";
 import Moodboard from "@/components/moodboard";
 import Projects from "@/components/projects";
@@ -17,7 +17,7 @@ export default function Page() {
         </div>
         <Projects />
         <Moodboard />
-        <Contact />
+        <Contacts />
       </div>
       <Footer></Footer>
     </div>
