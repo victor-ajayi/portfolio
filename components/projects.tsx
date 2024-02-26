@@ -19,8 +19,8 @@ export default function Projects() {
   ];
 
   return (
-    <div className="col-span-2 flex gap-2">
-      <div className="w-full rounded-2xl border px-5 pt-3 pb-4">
+    <div className="card rounded-2xl border col-span-2 flex gap-2">
+      <div className="w-full px-5 pt-3 pb-4">
         <p className="text-lg">projects</p>
         <hr className="mt-2" />
         <div className="">

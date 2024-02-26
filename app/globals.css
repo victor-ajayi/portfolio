@@ -2,16 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .bg {
+    @apply bg-white dark:bg-[#171719];
+  }
+}
+
 @layer components {
+  .card {
+    @apply bg-white dark:bg-[#202021];
+  }
+
   .text-primary {
-    @apply text-indigo-700 dark:text-white;
+    @apply text-indigo-700 dark:text-indigo-400;
   }
 
   .text-secondary {
     @apply text-indigo-950/50 dark:text-white/60;
   }
 
+  .border {
+    @apply border-[#e5e7eb] dark:border-[#2c2c2f];
+  }
+
   .border-primary {
-    @apply border-indigo-700/40;
+    @apply border-indigo-700 dark:border-indigo-400;
+  }
+
+  hr {
+    @apply border-[#e5e7eb] dark:border-[#343436];
   }
 }

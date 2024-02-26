@@ -13,7 +13,7 @@ import {
 
 export default function Stack() {
   return (
-    <div className="grid grid-cols-4 gap-y-4 gap-x-0 py-3 px-auto items-center text-indigo-950/80 md:grid-cols-3 md:py-[10px] md:gap-y-2 md:gap-x-1 rounded-2xl border transition-all duration-300 ease-in-out md:w-[300px] h-[150px] md:h-full">
+    <div className="card grid grid-cols-4 gap-y-4 gap-x-0 py-3 px-auto items-center text-indigo-950/80 md:grid-cols-3 md:py-[10px] md:gap-y-2 md:gap-x-1 rounded-2xl border transition-all duration-300 ease-in-out md:w-[300px] h-[150px] md:h-full">
       <div title="Python" className="">
         <PythonIcon size={30} className="mx-auto" />
       </div>
