@@ -4,21 +4,13 @@ export default function Bio() {
       <p className="text-justify text-lg font-normal leading-[22px]">
         Howdy 👋🏽, I&apos;m Victor.{" "}
         <span className="text-secondary">
-          I&apos;m a{" "}
-          <span className="transition-all ease-in-out group-hover:text-primary">
-            software developer
-          </span>{" "}
-          and I love building things. Started as a{" "}
-          <span className="transition-all ease-in-out group-hover:text-primary">
-            Python
-          </span>{" "}
-          developer, but over time I&apos;ve become more comfortable with
-          exploring my other interests, so now I&apos;m entering a more rounded
-          role in{" "}
-          <span className="transition-all ease-in-out group-hover:text-primary">
-            fullstack
-          </span>{" "}
-          development.
+          I&apos;m a <span className="text-primary">software developer</span>{" "}
+          and I love building things. Having started as a{" "}
+          <span className="text-primary">Python</span> developer, over time
+          I&apos;ve become more comfortable with exploring my other interests;
+          I&apos;m now entering a more rounded role in{" "}
+          <span className="text-primary">fullstack</span> development with
+          React.
         </span>
       </p>
     </div>
