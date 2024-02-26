@@ -21,19 +21,21 @@ export default function Project({
       <div className="">
         <a
           href={source}
-          className="cursor-pointer transition-all ease-in-out hover:text-primary"
+          className="group cursor-pointer transition-all ease-in-out hover:text-primary"
         >
           <span>{title}</span>
           <svg
-            className="inline-block"
-            width="15"
-            height="15"
-            fill="none"
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
+            className="inline-block group-hover:rotate-45 group-hover:text-primary transition-all duration-300 ml-1 relative bottom-[1px]"
           >
             <path
-              d="m4 11 7.5-7.5m0 0H6.55m4.95 0v4.95"
+              fill="currentColor"
               stroke="currentColor"
+              strokeWidth={0.4}
+              d="M3.293,20.707a1,1,0,0,1,0-1.414L17.586,5H12a1,1,0,0,1,0-2h8a1,1,0,0,1,1,1v8a1,1,0,0,1-2,0V6.414L4.707,20.707a1,1,0,0,1-1.414,0Z"
             />
           </svg>
         </a>
