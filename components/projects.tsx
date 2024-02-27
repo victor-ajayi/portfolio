@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: "denarii",
-      stack: ["Python", "FastAPI", "Docker", "React", "TS"],
+      stack: ["Python", "FastAPI", "Docker", "React", "JavaScript"],
       description: "A financial budgeting and analysis app",
       year: "2023",
       source: "https://github.com/victor-ajayi/denarii",

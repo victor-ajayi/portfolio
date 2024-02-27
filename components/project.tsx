@@ -15,10 +15,10 @@ export default function Project({
 }: Project) {
   return (
     <div className="flex mt-6 mb-4 gap-10 md-custom:gap-20">
-      <div className="text-sm text-secondary w-fit relative top-[2px]">
+      <div className="text-sm text-secondary w-fit h-fit relative bottom-[1px]">
         {year}
       </div>
-      <div className="">
+      <div className="relative bottom-[2px]">
         <a
           href={source}
           className="group cursor-pointer transition-all ease-in-out hover:text-primary"
@@ -29,7 +29,7 @@ export default function Project({
             height="12"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
-            className="inline-block group-hover:rotate-45 group-hover:text-primary transition-all duration-300 ml-1 relative bottom-[1px]"
+            className="inline-block group-hover:rotate-45 group-hover:text-primary transition-all duration-300 ml-1"
           >
             <path
               fill="currentColor"
@@ -42,7 +42,7 @@ export default function Project({
         <p className="text-secondary text-sm">{description}</p>
         <p className="flex flex-wrap gap-1 text-secondary text-xs mt-3">
           {stack.map((item) => (
-            <span key={item} className="rounded-lg border px-2 text-[10px]">
+            <span key={item} className="rounded-lg border px-2">
               {item}
             </span>
           ))}
