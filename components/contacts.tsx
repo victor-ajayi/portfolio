@@ -84,19 +84,19 @@ export default function Contacts() {
       <div className="flex gap-2 self-center mt-3">
         <a
           href={"https://github.com/victor-ajayi"}
-          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition- hover:border-primary duration-300 ease-in-out"
+          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition-all ease-in-out hover:text-primary hover:relative hover:scale-[1.08] duration-300"
         >
           <GitHubIcon className="" />
         </a>
         <a
           href={"https://twitter.com/blackispeg"}
-          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition- hover:border-primary duration-300 ease-in-out"
+          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition-all ease-in-out hover:text-primary hover:relative hover:scale-[1.08] duration-300"
         >
           <TwitterIcon className="" />
         </a>
         <a
           href="mailto:vickyajayi@gmail.com"
-          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition- hover:border-primary duration-300 ease-in-out"
+          className="card inline-block border rounded-[10px] px-2 py-2 cursor-pointer transition-all ease-in-out hover:text-primary hover:relative hover:scale-[1.08] duration-300"
         >
           <MailIcon className="" />
         </a>

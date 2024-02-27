@@ -15,7 +15,7 @@ export default function Project({
 }: Project) {
   return (
     <div className="flex mt-6 mb-4 gap-10 md-custom:gap-20">
-      <div className="text-sm text-secondary w-fit h-fit relative bottom-[1px]">
+      <div className="text-sm text-secondary w-fit h-fit relative top-[1px]">
         {year}
       </div>
       <div className="relative bottom-[2px]">
