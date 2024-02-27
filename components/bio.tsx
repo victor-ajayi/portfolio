@@ -1,6 +1,6 @@
 export default function Bio() {
   return (
-    <div className="card group rounded-2xl border px-5 py-3 transition-all duration-300 ease-in-out md:h-fit md:w-full">
+    <section className="card group rounded-2xl border px-5 py-3 transition-all duration-300 ease-in-out md:h-fit md:w-full">
       <p className="text-justify text-lg font-normal leading-[22px]">
         Howdy 👋🏽, I&apos;m Victor.{" "}
         <span className="text-secondary">
@@ -13,6 +13,6 @@ export default function Bio() {
           React.
         </span>
       </p>
-    </div>
+    </section>
   );
 }

@@ -4,7 +4,7 @@ interface Props {
 
 export default function Footer({ children }: Props) {
   return (
-    <div className="text-sm text-secondary w-full mt-5 mb-10">
+    <footer className="text-sm text-secondary w-full mt-5 mb-10">
       <div className="flex flex-col justify-center w-full mt-4">{children}</div>
       <div className="w-full mt-10">
         <hr />
@@ -15,6 +15,6 @@ export default function Footer({ children }: Props) {
           <p className="inline-block">© 2024</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

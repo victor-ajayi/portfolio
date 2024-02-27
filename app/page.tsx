@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="mt-3 pb-10 mx-auto max-w-[800px] px-3 md-custom:px-10">
       <StatusBar />
-      <div className="grid grid-cols-2 gap-4 mt-4">
+      <main className="grid grid-cols-2 gap-4 mt-4">
         <div className="col-span-2 flex flex-col justify-center gap-3 md:flex-row">
           <Bio />
           <Stack />
@@ -18,7 +18,7 @@ export default function Page() {
         <Projects />
         <Moodboard />
         <Contacts />
-      </div>
+      </main>
       <Footer></Footer>
     </div>
   );
