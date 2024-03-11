@@ -19,7 +19,7 @@ export default function Page() {
         <Moodboard />
         <Contacts />
       </main>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
