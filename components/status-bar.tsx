@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ThemeToggle } from "./ui/theme-toggle";
 
@@ -25,7 +26,12 @@ export default function StatusBar() {
 
   return (
     <nav className="card flex items-center border rounded-2xl py-[6px] px-3 w-full mt-2 h-fit">
-      <div className="text-sm xs:text-base ml-2 mr-auto">Victor Ajayi</div>
+      <Link
+        href={"/"}
+        className="text-sm xs:text-base ml-2 mr-auto cursor-pointer"
+      >
+        Victor Ajayi
+      </Link>
       <div className="flex items-center">
         <ThemeToggle className="cursor-pointer hover:bg-gray-100 dark:hover:bg-[#272729] rounded-lg px-2 py-[6px]" />
         <hr className="mx-1 border-l h-[20px]" />
