@@ -38,6 +38,7 @@ export const metadata: Metadata = {
         width: 3600,
         height: 1890,
         url: "/og.png",
+        type: "png",
       },
     ],
   },
