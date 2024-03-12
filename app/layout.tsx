@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     "React",
     "JavaScript",
     "TypeScript",
+    "Python",
+    "FastAPI",
+    "Django",
+    "Flask",
     "TailwindCSS",
     "Engineering",
     "Frontend",
@@ -57,7 +61,17 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@blackispeg",
     title: "Victor Ajayi",
-    images: [{ url: "/og.png" }],
+    description: "Software Developer",
+    site: "https://www.victorajayi.xyz",
+    images: [
+      {
+        alt: "Victor Ajayi",
+        width: 3600,
+        height: 1890,
+        url: "/og.png",
+        type: "png",
+      },
+    ],
   },
 };
 

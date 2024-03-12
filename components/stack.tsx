@@ -4,11 +4,11 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { SiPydantic } from "react-icons/si";
 import {
+  DjangoIcon,
   DockerIcon,
   FastIcon,
   PostgresIcon,
   PythonIcon,
-  TailwindIcon,
 } from "./ui/icons";
 
 export default function Stack() {
@@ -23,6 +23,15 @@ export default function Stack() {
       <div title="Docker" className="">
         <DockerIcon size={30} className="mx-auto" />
       </div>
+      <div title="Django" className="">
+        <DjangoIcon
+          size={32}
+          className="mx-auto text-[#092E20] dark:text-white"
+        />
+      </div>
+      <div title="Pydantic" className="">
+        <SiPydantic size={28} className="mx-auto" color="#CD3962" />
+      </div>
       <div title="PostgreSQL" className="">
         <PostgresIcon size={26} className="mx-auto" />
       </div>
@@ -31,12 +40,6 @@ export default function Stack() {
       </div>
       <div title="React" className="">
         <FaReact size={30} className="mx-auto" color="#71BFDB" />
-      </div>
-      <div title="Pydantic" className="">
-        <SiPydantic size={28} className="mx-auto" color="#CD3962" />
-      </div>
-      <div title="TailwindCSS" className="">
-        <TailwindIcon size={30} className="mx-auto" />
       </div>
     </section>
   );
