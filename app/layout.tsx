@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   icons: {
-    icon: "/icon.jpg",
+    icon: "/icon.png",
   },
   metadataBase: new URL("https://victorajayi.xyz"),
   openGraph: {

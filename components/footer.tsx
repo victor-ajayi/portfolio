@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface Props {
   children?: React.ReactNode;
 }
@@ -10,7 +12,15 @@ export default function Footer({ children }: Props) {
         <hr />
         <div className="flex pt-3">
           <p className="inline-block mr-auto">
-            Built with Next.js & TailwindCSS
+            Built with Next.js & TailwindCSS (
+            <Link
+              href={"https://github.com/victor-ajayi/portfolio"}
+              target="_blank"
+              className="cursor-pointer"
+            >
+              Source
+            </Link>
+            )
           </p>
           <p className="inline-block">© 2024</p>
         </div>
