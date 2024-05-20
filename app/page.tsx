@@ -8,7 +8,7 @@ import StatusBar from "@/components/status-bar";
 
 export default function Page() {
   return (
-    <div className="mt-3 pb-10 mx-auto max-w-[800px] px-3 md-custom:px-10">
+    <div className="flex flex-col mt-3 mx-auto max-w-[800px] px-3 md-custom:px-10 min-h-[95vh]">
       <StatusBar />
       <main className="grid grid-cols-2 gap-4 mt-4">
         <div className="col-span-2 flex flex-col justify-center gap-3 md:flex-row">
