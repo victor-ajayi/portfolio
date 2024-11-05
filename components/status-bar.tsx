@@ -50,7 +50,7 @@ export default function StatusBar() {
           />
         </svg>
         <span className="text-center w-[64px]" suppressHydrationWarning>
-          {time}
+          GMT+3
         </span>
       </div>
     </nav>
