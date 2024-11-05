@@ -1,5 +1,5 @@
 ## portfolio
 
-My personal (minimal) website.
+My personal, minimal website.
 
-<img width="1270" alt="image" src="https://github.com/victor-ajayi/portfolio/assets/81755664/cfd9db32-9091-44a3-99d3-87fa0c02f3fb">
+<img width="1208" alt="Victor Ajayi O" src="https://github.com/user-attachments/assets/1892dbf5-901c-4cb0-a3e8-ed44f30ee42f">
