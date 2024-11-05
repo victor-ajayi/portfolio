@@ -4,7 +4,7 @@
 
 @layer base {
   .bg {
-    @apply bg-white dark:bg-[#1c1c1c];
+    @apply bg-white dark:bg-[#252525];
   }
 }
 
