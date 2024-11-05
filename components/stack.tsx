@@ -33,7 +33,7 @@ export default function Stack() {
         <SiPydantic size={28} className="mx-auto" color="#CD3962" />
       </div>
       <div title="PostgreSQL" className="">
-        <PostgresIcon size={26} className="mx-auto" />
+        <PostgresIcon size={26} className="mx-auto relative top-[2px]" />
       </div>
       <div title="TypeScript" className="">
         <BiLogoTypescript size={30} className="mx-auto" color="#4476C0" />
