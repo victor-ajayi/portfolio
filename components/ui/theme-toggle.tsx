@@ -13,7 +13,7 @@ import clsx from "clsx";
 import { useState } from "react";
 
 export function ThemeToggle({ className }: { className?: string }) {
-  const [selected, setSelected] = useState("system");
+  const [selected, setSelected] = useState("light");
   const { setTheme } = useTheme();
 
   return (
