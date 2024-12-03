@@ -10,7 +10,7 @@ export default function Experience() {
             <p className="text-secondary text-sm">Python backend developer</p>
           </div>
           <div className="text-sm text-secondary w-fit h-fit">
-            Apr 2024 – Oct 2024
+            Apr 2024 – Nov 2024
           </div>
         </div>
       </div>
