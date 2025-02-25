@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
+import AnimateEnter from "../components/ui/animate-enter";
 import { uncut as font } from "./fonts/fonts";
+import { inter } from "./fonts/fonts";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 
@@ -89,7 +91,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <AnimateEnter>{children}</AnimateEnter>
         </ThemeProvider>
       </body>
     </html>

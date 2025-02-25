@@ -10,7 +10,7 @@ const options: Intl.DateTimeFormatOptions = {
   timeZone: "Europe/Moscow",
 };
 
-export default function StatusBar() {
+export default function NavBar() {
   const [time, setTime] = useState(() =>
     new Date().toLocaleTimeString("en-GB", options)
   );

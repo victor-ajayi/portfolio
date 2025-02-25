@@ -17,6 +17,7 @@ const config = {
       "md-custom": "640px",
       ...defaultTheme.screens,
     },
+    extend: {},
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
