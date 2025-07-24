@@ -55,10 +55,6 @@ export default function Page() {
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <Projects />
-        </motion.div>
-
-        <motion.div variants={itemVariants}>
           <Moodboard />
         </motion.div>
 
