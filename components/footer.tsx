@@ -22,7 +22,7 @@ export default function Footer({ children }: Props) {
             </Link>
             )
           </p>
-          <p className="inline-block">© 2024</p>
+          <p className="inline-block">© {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>

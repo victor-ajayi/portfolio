@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { ThemeToggle } from "./ui/theme-toggle";
 
 const options: Intl.DateTimeFormatOptions = {
@@ -11,24 +10,9 @@ const options: Intl.DateTimeFormatOptions = {
 };
 
 export default function NavBar() {
-  const [time, setTime] = useState(() =>
-    new Date().toLocaleTimeString("en-GB", options)
-  );
-
-  useEffect(() => {
-    const intervalID = setInterval(() => {
-      setTime(new Date().toLocaleTimeString("en-GB", options));
-    }, 1000);
-
-    return () => clearInterval(intervalID);
-  }, []);
-
   return (
-    <nav className="card flex items-center border rounded-2xl py-[6px] px-3 w-full mt-2 h-fit">
-      <Link
-        href={"/"}
-        className="text-sm xs:text-base ml-2 mr-auto cursor-pointer"
-      >
+    <nav className="card flex items-center w-full mb-6 h-fit">
+      <Link href={"/"} className="text-sm xs:text-base mr-auto cursor-pointer">
         Victor Ajayi
       </Link>
       <div className="flex items-center">
@@ -49,9 +33,7 @@ export default function NavBar() {
             stroke="currentColor"
           />
         </svg>
-        <span className="text-center w-[64px]" suppressHydrationWarning>
-          GMT+3
-        </span>
+        <span className="text-center w-fit pl-2">GMT+3</span>
       </div>
     </nav>
   );

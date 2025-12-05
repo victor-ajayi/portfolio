@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import AnimateEnter from "../components/ui/animate-enter";
-import { uncut as font } from "./fonts/fonts";
+import { figtree as font } from "./fonts/fonts";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 

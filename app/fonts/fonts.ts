@@ -6,7 +6,7 @@ export const inter = Inter({
   display: "swap",
 });
 
-export const uncut = localfont({
-  src: "./UncutSans-Variable.ttf",
+export const figtree = localfont({
+  src: "./Figtree-Regular.ttf",
   display: "swap",
 });
