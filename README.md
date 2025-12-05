@@ -2,4 +2,4 @@
 
 My personal, minimal website.
 
-<img width="1208" alt="Victor Ajayi O" src="https://github.com/user-attachments/assets/1892dbf5-901c-4cb0-a3e8-ed44f30ee42f">
+<img width="1248" height="1072" alt="SCR-20251205-flus" src="https://github.com/user-attachments/assets/0e1549aa-37a8-4304-a0b8-5b70d7575d3b" />
