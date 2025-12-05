@@ -16,7 +16,7 @@ export default function Experience() {
         <div className="flex mt-6 mb-4 gap-10 md-custom:gap-20">
           <div className="mr-auto">
             <div>HardQode</div>
-            <p className="text-secondary text-sm">Python Backend Developer</p>
+            <p className="text-secondary text-sm">Python Developer</p>
           </div>
           <div className="text-sm text-secondary w-fit h-fit">
             Apr 2024 – Nov 2024
