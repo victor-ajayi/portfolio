@@ -15,8 +15,7 @@ export default function Bio() {
           <br />
           I&apos;m an explorer by nature, debugger by necessity. When I&apos;m
           not writing code in the wee hours, you can find me deep in other
-          passions: music, photography, mandatory 2am bullet chess, football,
-          tennis.
+          passions: music, photography, chess, football, tennis.
         </span>
       </p>
     </section>
