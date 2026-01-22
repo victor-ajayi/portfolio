@@ -2,10 +2,10 @@
 
 import Bio from "@/components/bio";
 import Contacts from "@/components/contacts";
-import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Moodboard from "@/components/moodboard";
 import Stack from "@/components/stack";
+import Work from "@/components/work";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -47,7 +47,7 @@ export default function Page() {
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <Experience />
+          <Work />
         </motion.div>
 
         <motion.div variants={itemVariants}>
