@@ -8,9 +8,7 @@ export default function Bio() {
       <p className="text-justify text-base font-normal leading-[22px]">
         Howdy 👋🏽, I&apos;m Victor. Nice to meet you!{" "}
         <span className="text-secondary">
-          I&apos;m a Python developer and I love building things. Currently
-          looking for <span className="text-primary">backend developer</span>{" "}
-          position.
+          I&apos;m a Python developer and I love building things.
           <br />
           <br />
           I&apos;m an explorer by nature, debugger by necessity. When I&apos;m
