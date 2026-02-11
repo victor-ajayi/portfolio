@@ -19,7 +19,7 @@ export default function Work() {
             <p className="text-secondary text-sm">Python Developer</p>
           </div>
           <div className="text-sm text-secondary w-fit h-fit">
-            Apr 2024 – Nov 2024
+            Apr 2024 – Feb 2025
           </div>
         </div>
       </div>
